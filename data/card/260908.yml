@@ -5,7 +5,7 @@ about:
   head: 0baabc3
   archived: false
   latestVersion: "v0.12.19"
-  collectedAt: 2026-09-08T02:36:43Z
+  collectedAt: 2026-09-08T05:19:42Z
 timeline:
   created: 2019-04-12
   lastCommit: 2026-09-04
@@ -83,7 +83,7 @@ total:
   commit: 1766
 ---
 path: /home/runner/.x-repo/github.com/itchyny/gojq
-collectedAt: 2026-09-08T02:36:45Z
+collectedAt: 2026-09-08T05:19:44Z
 loc:
   Go:
     code: 13246
