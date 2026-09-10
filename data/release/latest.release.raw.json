@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1797166,
       "digest": "sha256:bdfaf9acbe088973c549dadbf299c06dc9a84f1ca38c731ca04a08a901077f64",
-      "download_count": 21460,
+      "download_count": 21492,
       "created_at": "2026-04-01T13:05:02Z",
       "updated_at": "2026-04-01T13:05:03Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_linux_amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1612049,
       "digest": "sha256:b22794b4bebad11c42af52550bda317c5cd7ee79aaa729eb6ec91a63f623d8b5",
-      "download_count": 42205,
+      "download_count": 42207,
       "created_at": "2026-04-01T13:05:01Z",
       "updated_at": "2026-04-01T13:05:02Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_linux_arm64.tar.gz"
