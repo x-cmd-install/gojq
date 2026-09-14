@@ -14,12 +14,12 @@ x install gojq
 
 ## Code insight
 
-Total: **22,703** lines of code across **69** files in the top 5 languages.
+Total: **22,741** lines of code across **69** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 13,241 | 244 | 879 | 52 |
-| Yaml | 8,731 | 3 | 308 | 5 |
+| Go | 13,255 | 249 | 881 | 52 |
+| Yaml | 8,755 | 3 | 310 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.12.19` (2026-04-01)
-- **Last commit**: 2026-09-13
+- **Last commit**: 2026-09-14
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 3,803 · **Forks**: 152 · **Open issues**: 226 · **Contributors**: 18
+- **Stars**: 3,804 · **Forks**: 152 · **Open issues**: 226 · **Contributors**: 19
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 28 · **Open PRs**: 8 · **Closed issues**: 216 · **Open issues**: 10 · **Commits**: 1767
+- **Releases**: 38 · **Merged PRs**: 29 · **Open PRs**: 8 · **Closed issues**: 216 · **Open issues**: 10 · **Commits**: 1769
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 4 | 0 | 2 | 7 |
-| last60d | 2026-07-15 | 0 | 3 | 4 | 0 | 2 | 7 |
-| 90d | 2026-06-15 | 0 | 3 | 4 | 0 | 2 | 13 |
-| last180d | 2026-03-17 | 1 | 3 | 5 | 2 | 2 | 19 |
-| 360d | 2025-09-18 | 2 | 5 | 6 | 5 | 2 | 60 |
-| last720d | 2024-09-23 | 3 | 5 | 6 | 14 | 5 | 91 |
+| 30d | 2026-08-15 | 0 | 4 | 4 | 0 | 2 | 9 |
+| last60d | 2026-07-16 | 0 | 4 | 4 | 0 | 2 | 9 |
+| 90d | 2026-06-16 | 0 | 4 | 4 | 0 | 2 | 15 |
+| last180d | 2026-03-18 | 1 | 4 | 5 | 2 | 2 | 21 |
+| 360d | 2025-09-19 | 2 | 6 | 6 | 5 | 2 | 62 |
+| last720d | 2024-09-24 | 3 | 6 | 6 | 14 | 5 | 92 |
 
 ## Release assets
 
@@ -75,23 +75,6 @@ Lowest-scoring checks:
 | [gojq_v0.12.19_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_amd64.zip) | 1.8 MiB | `native/win/x64` |
 | [gojq_v0.12.19_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_arm64.zip) | 1.6 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **22** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.12.13` | ⚠️ outdated |
-| Debian 14 | `0.12.13` | ⚠️ outdated |
-| Debian 13 | `0.12.13` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
-| Homebrew | `0.12.19` | ✅ latest |
-| Fedora rawhide | `0.12.19` | ✅ latest |
-| Nix unstable | `0.12.19` | ✅ latest |
-| Alpine edge | `0.12.19` | ✅ latest |
-| openSUSE Tumbleweed | `0.12.19` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gojq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:30:05Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:44:46Z._
