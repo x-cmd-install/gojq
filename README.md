@@ -26,11 +26,11 @@ Total: **22,894** lines of code across **69** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.9 / 10**
+Overall score: **6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
+- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 5 | 2 | 1 | 0 | 13 |
-| last60d | 2026-07-23 | 0 | 6 | 4 | 1 | 2 | 14 |
-| 90d | 2026-06-23 | 0 | 6 | 4 | 1 | 2 | 20 |
-| last180d | 2026-03-25 | 1 | 6 | 5 | 2 | 2 | 26 |
-| 360d | 2025-09-26 | 2 | 8 | 6 | 6 | 2 | 67 |
-| last720d | 2024-10-01 | 3 | 8 | 6 | 15 | 5 | 97 |
+| 30d | 2026-08-23 | 0 | 5 | 1 | 1 | 0 | 13 |
+| last60d | 2026-07-24 | 0 | 6 | 4 | 1 | 2 | 14 |
+| 90d | 2026-06-24 | 0 | 6 | 4 | 1 | 2 | 20 |
+| last180d | 2026-03-26 | 1 | 6 | 5 | 2 | 2 | 26 |
+| 360d | 2025-09-27 | 2 | 8 | 6 | 6 | 2 | 67 |
+| last720d | 2024-10-02 | 3 | 8 | 6 | 15 | 5 | 97 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T05:41:51Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T05:35:41Z._
