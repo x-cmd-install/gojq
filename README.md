@@ -4,7 +4,7 @@
 
 Pure Go implementation of jq
 
-[![x-cmd/install — gojq Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gojq.svg)](https://x-cmd.com/install/gojq)
+[![x-cmd/install — gojq Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gojq.svg)](https://x-cmd.com/install/gojq)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install gojq
 
 ## Code insight
 
-Total: **22,894** lines of code across **69** files in the top 5 languages.
+Total: **22,910** lines of code across **69** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 13,297 | 256 | 888 | 52 |
-| Yaml | 8,866 | 3 | 316 | 5 |
+| Go | 13,298 | 256 | 888 | 52 |
+| Yaml | 8,881 | 3 | 316 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.12.19` (2026-04-01)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-23
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 3,805 · **Forks**: 154 · **Open issues**: 227 · **Contributors**: 21
+- **Stars**: 3,806 · **Forks**: 155 · **Open issues**: 227 · **Contributors**: 22
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 31 · **Open PRs**: 8 · **Closed issues**: 217 · **Open issues**: 10 · **Commits**: 1774
+- **Releases**: 38 · **Merged PRs**: 32 · **Open PRs**: 7 · **Closed issues**: 218 · **Open issues**: 9 · **Commits**: 1777
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 5 | 1 | 1 | 0 | 13 |
-| last60d | 2026-07-24 | 0 | 6 | 4 | 1 | 2 | 14 |
-| 90d | 2026-06-24 | 0 | 6 | 4 | 1 | 2 | 20 |
-| last180d | 2026-03-26 | 1 | 6 | 5 | 2 | 2 | 26 |
-| 360d | 2025-09-27 | 2 | 8 | 6 | 6 | 2 | 67 |
-| last720d | 2024-10-02 | 3 | 8 | 6 | 15 | 5 | 97 |
+| 30d | 2026-08-24 | 0 | 6 | 1 | 1 | 0 | 16 |
+| last60d | 2026-07-25 | 0 | 7 | 3 | 2 | 1 | 17 |
+| 90d | 2026-06-25 | 0 | 7 | 3 | 2 | 1 | 23 |
+| last180d | 2026-03-27 | 1 | 7 | 4 | 3 | 1 | 29 |
+| 360d | 2025-09-28 | 2 | 9 | 5 | 7 | 1 | 70 |
+| last720d | 2024-10-03 | 3 | 9 | 5 | 16 | 4 | 100 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:35:41Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:36:49Z._
