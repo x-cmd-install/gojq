@@ -14,11 +14,11 @@ x install gojq
 
 ## Code insight
 
-Total: **23,291** lines of code across **71** files in the top 5 languages.
+Total: **23,252** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 13,486 | 272 | 898 | 54 |
+| Go | 13,447 | 274 | 890 | 53 |
 | Yaml | 9,074 | 3 | 323 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.12.19` (2026-04-01)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-11
 - **Assets in release**: 6
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 35 · **Open PRs**: 7 · **Closed issues**: 220 · **Open issues**: 8 · **Commits**: 1792
+- **Releases**: 38 · **Merged PRs**: 35 · **Open PRs**: 7 · **Closed issues**: 220 · **Open issues**: 8 · **Commits**: 1793
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 7 | 0 | 2 | 0 | 26 |
-| last60d | 2026-08-12 | 0 | 10 | 3 | 3 | 1 | 32 |
-| 90d | 2026-07-13 | 0 | 10 | 3 | 3 | 1 | 35 |
-| last180d | 2026-04-14 | 0 | 10 | 4 | 3 | 1 | 40 |
-| 360d | 2025-10-16 | 2 | 12 | 5 | 8 | 1 | 80 |
-| last720d | 2024-10-21 | 3 | 12 | 5 | 18 | 3 | 114 |
+| 30d | 2026-09-12 | 0 | 7 | 0 | 2 | 0 | 24 |
+| last60d | 2026-08-13 | 0 | 10 | 3 | 3 | 1 | 33 |
+| 90d | 2026-07-14 | 0 | 10 | 3 | 3 | 1 | 36 |
+| last180d | 2026-04-15 | 0 | 10 | 4 | 3 | 1 | 41 |
+| 360d | 2025-10-17 | 2 | 12 | 5 | 8 | 1 | 81 |
+| last720d | 2024-10-22 | 3 | 12 | 5 | 18 | 3 | 115 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:17:09Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:31:53Z._
