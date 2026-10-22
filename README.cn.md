@@ -26,13 +26,13 @@ x install gojq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6 / 10**
+总评分: **6.1 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 11/30 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
 
@@ -57,12 +57,12 @@ x install gojq
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 9 | 2 | 2 | 0 | 0 |
-| last60d | 2026-08-22 | 0 | 13 | 2 | 3 | 0 | 0 |
-| 90d | 2026-07-23 | 0 | 14 | 4 | 4 | 1 | 0 |
-| last180d | 2026-04-24 | 0 | 14 | 5 | 4 | 1 | 0 |
-| 360d | 2025-10-26 | 2 | 16 | 6 | 8 | 1 | 0 |
-| last720d | 2024-10-31 | 3 | 16 | 6 | 19 | 3 | 119 |
+| 30d | 2026-09-22 | 0 | 8 | 2 | 2 | 0 | 21 |
+| last60d | 2026-08-23 | 0 | 13 | 2 | 3 | 0 | 38 |
+| 90d | 2026-07-24 | 0 | 14 | 4 | 4 | 1 | 39 |
+| last180d | 2026-04-25 | 0 | 14 | 5 | 4 | 1 | 47 |
+| 360d | 2025-10-27 | 2 | 16 | 6 | 8 | 1 | 87 |
+| last720d | 2024-11-01 | 3 | 16 | 6 | 19 | 3 | 119 |
 
 ## Release 资产
 
@@ -84,4 +84,4 @@ gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261021.yml` · 2026-10-21T05:22:09Z._
+_数据快照: `data/card/261022.yml` · 2026-10-22T05:23:12Z._
