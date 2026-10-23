@@ -51,18 +51,18 @@ x install gojq
 
 ## 累计统计
 
-- **发布数**: 38 · **已合并 PR**: 39 · **开放 PR**: 8 · **已关闭 issue**: 221 · **开放 issue**: 8 · **提交数**: 1800
+- **发布数**: 38 · **已合并 PR**: 39 · **开放 PR**: 9 · **已关闭 issue**: 221 · **开放 issue**: 8 · **提交数**: 1800
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 8 | 2 | 2 | 0 | 21 |
-| last60d | 2026-08-23 | 0 | 13 | 2 | 3 | 0 | 38 |
-| 90d | 2026-07-24 | 0 | 14 | 4 | 4 | 1 | 39 |
-| last180d | 2026-04-25 | 0 | 14 | 5 | 4 | 1 | 47 |
-| 360d | 2025-10-27 | 2 | 16 | 6 | 8 | 1 | 87 |
-| last720d | 2024-11-01 | 3 | 16 | 6 | 19 | 3 | 119 |
+| 30d | 2026-09-23 | 0 | 7 | 3 | 1 | 0 | 21 |
+| last60d | 2026-08-24 | 0 | 13 | 3 | 3 | 0 | 38 |
+| 90d | 2026-07-25 | 0 | 14 | 5 | 4 | 1 | 39 |
+| last180d | 2026-04-26 | 0 | 14 | 6 | 4 | 1 | 47 |
+| 360d | 2025-10-28 | 2 | 15 | 7 | 8 | 1 | 87 |
+| last720d | 2024-11-02 | 3 | 16 | 7 | 19 | 3 | 119 |
 
 ## Release 资产
 
@@ -75,6 +75,23 @@ x install gojq
 | [gojq_v0.12.19_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_amd64.zip) | 1.8 MiB | `native/win/x64` |
 | [gojq_v0.12.19_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_arm64.zip) | 1.6 MiB | `native/win/arm64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/gojq) 上共有 **80** 个发行版报告此项目。**24** 个 ✅ 已是最新上游版本，**48** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.12.13` | ⚠️ outdated |
+| Debian 14 | `0.12.13` | ⚠️ outdated |
+| Debian 13 | `0.12.13` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
+| Homebrew | `0.12.19` | ✅ latest |
+| Fedora rawhide | `0.12.19` | ✅ latest |
+| Nix unstable | `0.12.19` | ✅ latest |
+| Alpine edge | `0.12.19` | ✅ latest |
+| openSUSE Tumbleweed | `0.12.19` | ✅ latest |
+
 ## 改进这些数据
 
 gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gojq` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -84,4 +101,4 @@ gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:23:12Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:22:43Z._

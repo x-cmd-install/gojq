@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 39 · **Open PRs**: 8 · **Closed issues**: 221 · **Open issues**: 8 · **Commits**: 1800
+- **Releases**: 38 · **Merged PRs**: 39 · **Open PRs**: 9 · **Closed issues**: 221 · **Open issues**: 8 · **Commits**: 1800
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 8 | 2 | 2 | 0 | 21 |
-| last60d | 2026-08-23 | 0 | 13 | 2 | 3 | 0 | 38 |
-| 90d | 2026-07-24 | 0 | 14 | 4 | 4 | 1 | 39 |
-| last180d | 2026-04-25 | 0 | 14 | 5 | 4 | 1 | 47 |
-| 360d | 2025-10-27 | 2 | 16 | 6 | 8 | 1 | 87 |
-| last720d | 2024-11-01 | 3 | 16 | 6 | 19 | 3 | 119 |
+| 30d | 2026-09-23 | 0 | 7 | 3 | 1 | 0 | 21 |
+| last60d | 2026-08-24 | 0 | 13 | 3 | 3 | 0 | 38 |
+| 90d | 2026-07-25 | 0 | 14 | 5 | 4 | 1 | 39 |
+| last180d | 2026-04-26 | 0 | 14 | 6 | 4 | 1 | 47 |
+| 360d | 2025-10-28 | 2 | 15 | 7 | 8 | 1 | 87 |
+| last720d | 2024-11-02 | 3 | 16 | 7 | 19 | 3 | 119 |
 
 ## Release assets
 
@@ -75,6 +75,23 @@ Lowest-scoring checks:
 | [gojq_v0.12.19_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_amd64.zip) | 1.8 MiB | `native/win/x64` |
 | [gojq_v0.12.19_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_arm64.zip) | 1.6 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **24** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.12.13` | ⚠️ outdated |
+| Debian 14 | `0.12.13` | ⚠️ outdated |
+| Debian 13 | `0.12.13` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
+| Homebrew | `0.12.19` | ✅ latest |
+| Fedora rawhide | `0.12.19` | ✅ latest |
+| Nix unstable | `0.12.19` | ✅ latest |
+| Alpine edge | `0.12.19` | ✅ latest |
+| openSUSE Tumbleweed | `0.12.19` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gojq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:23:11Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:22:41Z._
