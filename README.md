@@ -14,12 +14,12 @@ x install gojq
 
 ## Code insight
 
-Total: **23,413** lines of code across **70** files in the top 5 languages.
+Total: **23,451** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 13,505 | 283 | 891 | 53 |
-| Yaml | 9,177 | 3 | 329 | 5 |
+| Go | 13,509 | 285 | 891 | 53 |
+| Yaml | 9,211 | 3 | 333 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.12.19` (2026-04-01)
-- **Last commit**: 2026-10-24
+- **Last commit**: 2026-10-25
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 3,815 · **Forks**: 165 · **Open issues**: 230 · **Contributors**: 28
+- **Stars**: 3,816 · **Forks**: 166 · **Open issues**: 230 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 41 · **Open PRs**: 10 · **Closed issues**: 221 · **Open issues**: 9 · **Commits**: 1804
+- **Releases**: 38 · **Merged PRs**: 41 · **Open PRs**: 9 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1805
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 8 | 3 | 1 | 1 | 24 |
-| last60d | 2026-08-26 | 0 | 15 | 4 | 3 | 1 | 43 |
-| 90d | 2026-07-27 | 0 | 16 | 6 | 4 | 2 | 44 |
-| last180d | 2026-04-28 | 0 | 16 | 7 | 4 | 2 | 52 |
-| 360d | 2025-10-30 | 2 | 17 | 8 | 7 | 2 | 91 |
-| last720d | 2024-11-04 | 3 | 18 | 8 | 19 | 4 | 123 |
+| 30d | 2026-09-26 | 0 | 7 | 2 | 2 | 0 | 25 |
+| last60d | 2026-08-27 | 0 | 15 | 3 | 4 | 0 | 44 |
+| 90d | 2026-07-28 | 0 | 16 | 5 | 5 | 1 | 45 |
+| last180d | 2026-04-29 | 0 | 16 | 6 | 5 | 1 | 53 |
+| 360d | 2025-10-31 | 2 | 17 | 7 | 8 | 1 | 92 |
+| last720d | 2024-11-05 | 3 | 18 | 7 | 20 | 3 | 124 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:14:03Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:16:02Z._
