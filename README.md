@@ -14,12 +14,12 @@ x install gojq
 
 ## Code insight
 
-Total: **23,545** lines of code across **70** files in the top 5 languages.
+Total: **23,554** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 13,532 | 285 | 895 | 53 |
-| Yaml | 9,282 | 3 | 334 | 5 |
+| Go | 13,529 | 285 | 895 | 53 |
+| Yaml | 9,294 | 3 | 335 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
@@ -41,43 +41,43 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v0.12.19` (2026-04-01)
-- **Last commit**: 2026-10-31
+- **Latest**: `v0.12.20` (2026-11-01)
+- **Last commit**: 2026-11-01
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 3,817 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 29
+- **Stars**: 3,817 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 42 · **Open PRs**: 9 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1811
+- **Releases**: 39 · **Merged PRs**: 43 · **Open PRs**: 9 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1815
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 8 | 2 | 2 | 0 | 20 |
-| last60d | 2026-09-02 | 0 | 16 | 3 | 4 | 0 | 45 |
-| 90d | 2026-08-03 | 0 | 17 | 5 | 5 | 1 | 51 |
-| last180d | 2026-05-05 | 0 | 17 | 6 | 5 | 1 | 59 |
-| 360d | 2025-11-06 | 2 | 18 | 7 | 8 | 1 | 98 |
-| last720d | 2024-11-11 | 3 | 19 | 7 | 18 | 3 | 130 |
+| 30d | 2026-10-03 | 1 | 9 | 2 | 2 | 0 | 24 |
+| last60d | 2026-09-03 | 1 | 16 | 3 | 4 | 0 | 49 |
+| 90d | 2026-08-04 | 1 | 18 | 5 | 5 | 1 | 55 |
+| last180d | 2026-05-06 | 1 | 18 | 5 | 5 | 1 | 63 |
+| 360d | 2025-11-07 | 3 | 19 | 7 | 8 | 1 | 102 |
+| last720d | 2024-11-12 | 4 | 20 | 7 | 18 | 3 | 134 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [gojq_v0.12.19_darwin_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_darwin_amd64.zip) | 1.7 MiB | `native/darwin/x64` |
-| [gojq_v0.12.19_darwin_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_darwin_arm64.zip) | 1.6 MiB | `native/darwin/arm64` |
-| [gojq_v0.12.19_linux_amd64.tar.gz](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_linux_amd64.tar.gz) | 1.7 MiB | `native/linux/x64` |
-| [gojq_v0.12.19_linux_arm64.tar.gz](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_linux_arm64.tar.gz) | 1.5 MiB | `native/linux/arm64` |
-| [gojq_v0.12.19_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_amd64.zip) | 1.8 MiB | `native/win/x64` |
-| [gojq_v0.12.19_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.19/gojq_v0.12.19_windows_arm64.zip) | 1.6 MiB | `native/win/arm64` |
+| [gojq_v0.12.20_darwin_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_darwin_amd64.zip) | 2.5 MiB | `native/darwin/x64` |
+| [gojq_v0.12.20_darwin_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_darwin_arm64.zip) | 2.3 MiB | `native/darwin/arm64` |
+| [gojq_v0.12.20_linux_amd64.tar.gz](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_linux_amd64.tar.gz) | 2.5 MiB | `native/linux/x64` |
+| [gojq_v0.12.20_linux_arm64.tar.gz](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_linux_arm64.tar.gz) | 2.2 MiB | `native/linux/arm64` |
+| [gojq_v0.12.20_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_amd64.zip) | 2.6 MiB | `native/win/x64` |
+| [gojq_v0.12.20_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_arm64.zip) | 2.3 MiB | `native/win/arm64` |
 
 ## Distribution status
 
-Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **24** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **8** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,11 +86,11 @@ Reported by **80** distros on [repology.org](https://repology.org/project/gojq).
 | Debian 13 | `0.12.13` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
-| Homebrew | `0.12.19` | ✅ latest |
-| Fedora rawhide | `0.12.19` | ✅ latest |
-| Nix unstable | `0.12.19` | ✅ latest |
-| Alpine edge | `0.12.19` | ✅ latest |
-| openSUSE Tumbleweed | `0.12.19` | ✅ latest |
+| Homebrew | `0.12.20` | ✅ latest |
+| Fedora rawhide | `0.12.19` | ⚠️ outdated |
+| Nix unstable | `0.12.19` | ⚠️ outdated |
+| Alpine edge | `0.12.19` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.12.19` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:37:14Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:40:03Z._
