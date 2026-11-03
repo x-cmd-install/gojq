@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,817 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
+- **Stars**: 3,818 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 9 | 2 | 2 | 0 | 24 |
-| last60d | 2026-09-03 | 1 | 16 | 3 | 4 | 0 | 49 |
-| 90d | 2026-08-04 | 1 | 18 | 5 | 5 | 1 | 55 |
-| last180d | 2026-05-06 | 1 | 18 | 5 | 5 | 1 | 63 |
-| 360d | 2025-11-07 | 3 | 19 | 7 | 8 | 1 | 102 |
-| last720d | 2024-11-12 | 4 | 20 | 7 | 18 | 3 | 134 |
+| 30d | 2026-10-04 | 1 | 9 | 2 | 2 | 0 | 24 |
+| last60d | 2026-09-04 | 1 | 16 | 3 | 4 | 0 | 49 |
+| 90d | 2026-08-05 | 1 | 18 | 5 | 5 | 1 | 55 |
+| last180d | 2026-05-07 | 1 | 18 | 5 | 5 | 1 | 63 |
+| 360d | 2025-11-08 | 3 | 19 | 7 | 8 | 1 | 102 |
+| last720d | 2024-11-13 | 4 | 20 | 7 | 18 | 3 | 134 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **8** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+Reported by **80** distros on [repology.org](https://repology.org/project/gojq). **12** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -88,7 +88,7 @@ Reported by **80** distros on [repology.org](https://repology.org/project/gojq).
 | Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
 | Homebrew | `0.12.20` | ✅ latest |
 | Fedora rawhide | `0.12.19` | ⚠️ outdated |
-| Nix unstable | `0.12.19` | ⚠️ outdated |
+| Nix unstable | `0.12.20` | ✅ latest |
 | Alpine edge | `0.12.19` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.12.19` | ⚠️ outdated |
 
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:40:03Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:27:49Z._

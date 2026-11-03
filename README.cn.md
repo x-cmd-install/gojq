@@ -47,7 +47,7 @@ x install gojq
 
 ## 流行度
 
-- **Star**: 3,817 · **Fork**: 168 · **开放 issue**: 230 · **贡献者**: 30
+- **Star**: 3,818 · **Fork**: 168 · **开放 issue**: 230 · **贡献者**: 30
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install gojq
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 9 | 2 | 2 | 0 | 24 |
-| last60d | 2026-09-03 | 1 | 16 | 3 | 4 | 0 | 49 |
-| 90d | 2026-08-04 | 1 | 18 | 5 | 5 | 1 | 55 |
-| last180d | 2026-05-06 | 1 | 18 | 5 | 5 | 1 | 63 |
-| 360d | 2025-11-07 | 3 | 19 | 7 | 8 | 1 | 102 |
-| last720d | 2024-11-12 | 4 | 20 | 7 | 18 | 3 | 134 |
+| 30d | 2026-10-04 | 1 | 9 | 2 | 2 | 0 | 24 |
+| last60d | 2026-09-04 | 1 | 16 | 3 | 4 | 0 | 49 |
+| 90d | 2026-08-05 | 1 | 18 | 5 | 5 | 1 | 55 |
+| last180d | 2026-05-07 | 1 | 18 | 5 | 5 | 1 | 63 |
+| 360d | 2025-11-08 | 3 | 19 | 7 | 8 | 1 | 102 |
+| last720d | 2024-11-13 | 4 | 20 | 7 | 18 | 3 | 134 |
 
 ## Release 资产
 
@@ -77,7 +77,7 @@ x install gojq
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gojq) 上共有 **80** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gojq) 上共有 **80** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**60** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -88,7 +88,7 @@ x install gojq
 | Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
 | Homebrew | `0.12.20` | ✅ latest |
 | Fedora rawhide | `0.12.19` | ⚠️ outdated |
-| Nix unstable | `0.12.19` | ⚠️ outdated |
+| Nix unstable | `0.12.20` | ✅ latest |
 | Alpine edge | `0.12.19` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.12.19` | ⚠️ outdated |
 
@@ -101,4 +101,4 @@ gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261102.yml` · 2026-11-02T06:40:03Z._
+_数据快照: `data/card/261103.yml` · 2026-11-03T07:27:50Z._
