@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2638036,
       "digest": "sha256:142a0c2f17802ca9a290ca8498adfcf5ec19d8c14b13303c9329511e70dae5bc",
-      "download_count": 23,
+      "download_count": 28,
       "created_at": "2026-11-01T12:01:46Z",
       "updated_at": "2026-11-01T12:01:46Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_darwin_amd64.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2384926,
       "digest": "sha256:54be17aae49787bb92759bb8662b80f66b9655d42fe3b9e4c39a0c3587962afd",
-      "download_count": 44,
+      "download_count": 55,
       "created_at": "2026-11-01T12:01:45Z",
       "updated_at": "2026-11-01T12:01:46Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_darwin_arm64.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2591728,
       "digest": "sha256:92ce2328ce3099532d2b23abfa25a348ecdc48caa584d821feab563f7df4a856",
-      "download_count": 414,
+      "download_count": 480,
       "created_at": "2026-11-01T12:01:46Z",
       "updated_at": "2026-11-01T12:01:46Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_linux_amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2305297,
       "digest": "sha256:14384db99511f57f0dcb35c7b825f8afd5407f9c203631aad4dd163af1856c35",
-      "download_count": 57,
+      "download_count": 76,
       "created_at": "2026-11-01T12:01:45Z",
       "updated_at": "2026-11-01T12:01:46Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_linux_arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2691947,
       "digest": "sha256:fa418a4a97422d10e4f65f093ea4c35eab239f9c0957810d4f4fc1c4253fbf7c",
-      "download_count": 56,
+      "download_count": 69,
       "created_at": "2026-11-01T12:01:45Z",
       "updated_at": "2026-11-01T12:01:46Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_amd64.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2373565,
       "digest": "sha256:823e1ae11ba4638be8c2c21a60440cafec640e4d028c4ad4eeed06def5556769",
-      "download_count": 22,
+      "download_count": 24,
       "created_at": "2026-11-01T12:01:46Z",
       "updated_at": "2026-11-01T12:01:47Z",
       "browser_download_url": "https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_arm64.zip"
