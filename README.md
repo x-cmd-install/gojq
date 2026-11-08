@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,817 · **Forks**: 167 · **Open issues**: 230 · **Contributors**: 30
+- **Stars**: 3,817 · **Forks**: 166 · **Open issues**: 230 · **Contributors**: 30
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 8 | 2 | 2 | 0 | 24 |
-| last60d | 2026-09-08 | 1 | 16 | 2 | 4 | 0 | 49 |
-| 90d | 2026-08-09 | 1 | 18 | 5 | 5 | 1 | 55 |
-| last180d | 2026-05-11 | 1 | 18 | 5 | 5 | 1 | 63 |
-| 360d | 2025-11-12 | 3 | 19 | 7 | 8 | 1 | 102 |
-| last720d | 2024-11-17 | 4 | 20 | 7 | 18 | 3 | 131 |
+| 30d | 2026-10-09 | 1 | 8 | 2 | 2 | 0 | 22 |
+| last60d | 2026-09-09 | 1 | 16 | 2 | 4 | 0 | 46 |
+| 90d | 2026-08-10 | 1 | 18 | 5 | 5 | 1 | 55 |
+| last180d | 2026-05-12 | 1 | 18 | 5 | 5 | 1 | 63 |
+| 360d | 2025-11-13 | 3 | 19 | 7 | 8 | 1 | 102 |
+| last720d | 2024-11-18 | 4 | 20 | 7 | 18 | 3 | 131 |
 
 ## Release assets
 
@@ -77,11 +77,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **81** distros on [repology.org](https://repology.org/project/gojq). **12** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **82** distros on [repology.org](https://repology.org/project/gojq). **14** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.12.13` | ⚠️ outdated |
+| Debian unstable | `0.12.13` | 🪦 legacy |
 | Debian 14 | `0.12.13` | ⚠️ outdated |
 | Debian 13 | `0.12.13` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:36:32Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:31:54Z._
