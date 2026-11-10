@@ -30,7 +30,7 @@ x install gojq
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 11/30 approved changesets -- score normalized to 3
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -47,22 +47,22 @@ x install gojq
 
 ## 流行度
 
-- **Star**: 3,818 · **Fork**: 166 · **开放 issue**: 230 · **贡献者**: 30
+- **Star**: 3,819 · **Fork**: 168 · **开放 issue**: 230 · **贡献者**: 30
 
 ## 累计统计
 
-- **发布数**: 39 · **已合并 PR**: 43 · **开放 PR**: 9 · **已关闭 issue**: 222 · **开放 issue**: 8 · **提交数**: 1815
+- **发布数**: 39 · **已合并 PR**: 43 · **开放 PR**: 10 · **已关闭 issue**: 222 · **开放 issue**: 8 · **提交数**: 1815
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 8 | 2 | 2 | 0 | 22 |
-| last60d | 2026-09-10 | 1 | 15 | 2 | 4 | 0 | 46 |
-| 90d | 2026-08-11 | 1 | 18 | 5 | 5 | 1 | 55 |
-| last180d | 2026-05-13 | 1 | 18 | 5 | 5 | 1 | 63 |
-| 360d | 2025-11-14 | 3 | 19 | 7 | 8 | 1 | 102 |
-| last720d | 2024-11-19 | 4 | 20 | 7 | 18 | 3 | 131 |
+| 30d | 2026-10-11 | 1 | 8 | 3 | 2 | 0 | 22 |
+| last60d | 2026-09-11 | 1 | 15 | 3 | 4 | 0 | 46 |
+| 90d | 2026-08-12 | 1 | 18 | 6 | 5 | 1 | 55 |
+| last180d | 2026-05-14 | 1 | 18 | 6 | 5 | 1 | 63 |
+| 360d | 2025-11-15 | 3 | 19 | 8 | 8 | 1 | 102 |
+| last720d | 2024-11-20 | 4 | 20 | 8 | 18 | 3 | 130 |
 
 ## Release 资产
 
@@ -77,7 +77,7 @@ x install gojq
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gojq) 上共有 **83** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**58** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gojq) 上共有 **83** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**57** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,7 +90,7 @@ x install gojq
 | Fedora rawhide | `0.12.19` | ⚠️ outdated |
 | Nix unstable | `0.12.20` | ✅ latest |
 | Alpine edge | `0.12.19` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.12.19` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.12.20` | ✅ latest |
 
 ## 改进这些数据
 
@@ -101,4 +101,4 @@ gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T07:07:25Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:56:39Z._

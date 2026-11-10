@@ -30,7 +30,7 @@ Overall score: **6.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 11/30 approved changesets -- score normalized to 3
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,818 · **Forks**: 166 · **Open issues**: 230 · **Contributors**: 30
+- **Stars**: 3,819 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 43 · **Open PRs**: 9 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1815
+- **Releases**: 39 · **Merged PRs**: 43 · **Open PRs**: 10 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1815
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 8 | 2 | 2 | 0 | 22 |
-| last60d | 2026-09-10 | 1 | 15 | 2 | 4 | 0 | 46 |
-| 90d | 2026-08-11 | 1 | 18 | 5 | 5 | 1 | 55 |
-| last180d | 2026-05-13 | 1 | 18 | 5 | 5 | 1 | 63 |
-| 360d | 2025-11-14 | 3 | 19 | 7 | 8 | 1 | 102 |
-| last720d | 2024-11-19 | 4 | 20 | 7 | 18 | 3 | 131 |
+| 30d | 2026-10-11 | 1 | 8 | 3 | 2 | 0 | 22 |
+| last60d | 2026-09-11 | 1 | 15 | 3 | 4 | 0 | 46 |
+| 90d | 2026-08-12 | 1 | 18 | 6 | 5 | 1 | 55 |
+| last180d | 2026-05-14 | 1 | 18 | 6 | 5 | 1 | 63 |
+| 360d | 2025-11-15 | 3 | 19 | 8 | 8 | 1 | 102 |
+| last720d | 2024-11-20 | 4 | 20 | 8 | 18 | 3 | 130 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **15** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
+Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **16** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,7 +90,7 @@ Reported by **83** distros on [repology.org](https://repology.org/project/gojq).
 | Fedora rawhide | `0.12.19` | ⚠️ outdated |
 | Nix unstable | `0.12.20` | ✅ latest |
 | Alpine edge | `0.12.19` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.12.19` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.12.20` | ✅ latest |
 
 ## Improve this data
 
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:07:24Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:56:39Z._
