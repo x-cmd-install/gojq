@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,819 · **Forks**: 167 · **Open issues**: 230 · **Contributors**: 30
+- **Stars**: 3,819 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 1 | 8 | 2 | 2 | 0 | 22 |
-| last60d | 2026-09-15 | 1 | 14 | 3 | 3 | 0 | 46 |
-| 90d | 2026-08-16 | 1 | 17 | 6 | 5 | 1 | 55 |
-| last180d | 2026-05-18 | 1 | 18 | 6 | 5 | 1 | 63 |
-| 360d | 2025-11-19 | 3 | 19 | 8 | 8 | 1 | 102 |
-| last720d | 2024-11-24 | 4 | 20 | 8 | 18 | 3 | 130 |
+| 30d | 2026-10-16 | 1 | 8 | 1 | 2 | 0 | 15 |
+| last60d | 2026-09-16 | 1 | 14 | 3 | 3 | 0 | 41 |
+| 90d | 2026-08-17 | 1 | 17 | 6 | 5 | 1 | 54 |
+| last180d | 2026-05-19 | 1 | 18 | 6 | 5 | 1 | 63 |
+| 360d | 2025-11-20 | 3 | 19 | 8 | 7 | 1 | 95 |
+| last720d | 2024-11-25 | 4 | 20 | 8 | 18 | 3 | 130 |
 
 ## Release assets
 
@@ -77,12 +77,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **16** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
+Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **17** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `0.12.13` | 🪦 legacy |
-| Debian 14 | `0.12.13` | ⚠️ outdated |
+| Debian 14 | `0.12.13` | 🪦 legacy |
 | Debian 13 | `0.12.13` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:30:41Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:19:18Z._
