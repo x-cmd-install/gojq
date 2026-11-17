@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,819 · **Forks**: 168 · **Open issues**: 230 · **Contributors**: 30
+- **Stars**: 3,819 · **Forks**: 169 · **Open issues**: 231 · **Contributors**: 30
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 43 · **Open PRs**: 10 · **Closed issues**: 222 · **Open issues**: 8 · **Commits**: 1815
+- **Releases**: 39 · **Merged PRs**: 43 · **Open PRs**: 13 · **Closed issues**: 222 · **Open issues**: 9 · **Commits**: 1815
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 8 | 1 | 2 | 0 | 15 |
-| last60d | 2026-09-17 | 1 | 13 | 3 | 3 | 0 | 41 |
-| 90d | 2026-08-18 | 1 | 17 | 4 | 5 | 0 | 54 |
-| last180d | 2026-05-20 | 1 | 18 | 6 | 5 | 1 | 63 |
-| 360d | 2025-11-21 | 3 | 19 | 8 | 7 | 1 | 95 |
-| last720d | 2024-11-26 | 4 | 20 | 8 | 18 | 3 | 130 |
+| 30d | 2026-10-18 | 1 | 4 | 4 | 2 | 1 | 15 |
+| last60d | 2026-09-18 | 1 | 13 | 6 | 3 | 1 | 41 |
+| 90d | 2026-08-19 | 1 | 17 | 7 | 5 | 1 | 54 |
+| last180d | 2026-05-21 | 1 | 18 | 9 | 5 | 2 | 63 |
+| 360d | 2025-11-22 | 3 | 19 | 11 | 7 | 2 | 95 |
+| last720d | 2024-11-27 | 4 | 20 | 11 | 18 | 4 | 130 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **18** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/gojq). **19** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **83** distros on [repology.org](https://repology.org/project/gojq).
 | Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
 | Homebrew | `0.12.20` | ✅ latest |
-| Fedora rawhide | `0.12.19` | ⚠️ outdated |
+| Fedora rawhide | `0.12.20` | ✅ latest |
 | Nix unstable | `0.12.20` | ✅ latest |
 | Alpine edge | `0.12.19` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.12.20` | ✅ latest |
@@ -101,4 +101,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:26:57Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:17:32Z._
