@@ -1,36 +1,78 @@
-- repo: nix_stable_24_11
-  srcname: gojq
-  visiblename: gojq
-  version: 0.12.16
+- repo: stalix
+  srcname: bin/go/jq
+  binname: bin/go/jq
+  visiblename: bin/go/jq
+  version: 0.12.20
   origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: termux
+  srcname: gojq
+  binname: gojq
+  visiblename: gojq
+  version: 0.12.20
+  origversion: null
+  status: newest
+  summary: Pure Go implementation of jq
+  maintainers:
+    - termux@github
+- repo: aur
+  srcname: gojq-bin
+  binname: gojq-bin
+  visiblename: gojq-bin
+  version: 0.12.20
+  origversion: 0.12.20-1
+  status: newest
+  summary: Pure Go implementation of jq
+  maintainers:
+    - dominiquini@aur
+  licenses:
+    - MIT
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: gojq
+  binnames:
+    - gojq
+    - golang-github-itchyny-gojq-dev
+  visiblename: gojq
+  version: 0.12.11
+  origversion: 0.12.11-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+  categories:
+    - golang
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: gojq
+  binnames:
+    - gojq
+    - golang-github-itchyny-gojq-dev
+  visiblename: gojq
+  version: 0.12.13
+  origversion: 0.12.13-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+  categories:
+    - golang
+- repo: freebsd
+  srcname: textproc/gojq
+  binname: gojq
+  visiblename: textproc/gojq
+  version: 0.12.19
+  origversion: 0.12.19_9
   status: outdated
   summary: Pure Go implementation of jq
   maintainers:
-    - wentworth@outlook.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: gojq
-  visiblename: gojq
-  version: 0.12.17
-  origversion: null
-  status: outdated
-  summary: Pure Go implementation of jq
-  maintainers:
-    - wentworth@outlook.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: gojq
-  visiblename: gojq
-  version: 0.12.17
-  origversion: null
-  status: outdated
-  summary: Pure Go implementation of jq
-  maintainers:
-    - xiaoxiangmoe@gmail.com
-  licenses:
-    - MIT
+    - nork@freebsd.org
+  categories:
+    - textproc
 - repo: alpine_3_17
   subrepo: community
   srcname: gojq
@@ -277,48 +319,6 @@
     - alerque@aur
   licenses:
     - MIT
-- repo: aur
-  srcname: gojq-bin
-  binname: gojq-bin
-  visiblename: gojq-bin
-  version: 0.12.20
-  origversion: 0.12.20-1
-  status: newest
-  summary: Pure Go implementation of jq
-  maintainers:
-    - dominiquini@aur
-  licenses:
-    - MIT
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: gojq
-  binnames:
-    - gojq
-    - golang-github-itchyny-gojq-dev
-  visiblename: gojq
-  version: 0.12.11
-  origversion: 0.12.11-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-  categories:
-    - golang
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: gojq
-  binnames:
-    - gojq
-    - golang-github-itchyny-gojq-dev
-  visiblename: gojq
-  version: 0.12.13
-  origversion: 0.12.13-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-  categories:
-    - golang
 - repo: debian_14
   subrepo: forky/main
   srcname: gojq
@@ -545,22 +545,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: gojq
-  binnames:
-    - gojq
-    - gojq-debuginfo
-    - gojq-debugsource
-  visiblename: gojq
-  version: 0.12.17
-  origversion: 0.12.17-5.fc43
-  status: legacy
-  summary: Pure Go implementation of jq
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: gojq
   binnames:
@@ -571,6 +555,22 @@
   version: 0.12.19
   origversion: 0.12.19-2.fc43
   status: outdated
+  summary: Pure Go implementation of jq
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: gojq
+  binnames:
+    - gojq
+    - gojq-debuginfo
+    - gojq-debugsource
+  visiblename: gojq
+  version: 0.12.17
+  origversion: 0.12.17-5.fc43
+  status: legacy
   summary: Pure Go implementation of jq
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT
@@ -608,6 +608,21 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gojq
+  binnames:
+    - gojq
+    - golang-github-itchyny-gojq-dev
+  visiblename: gojq
+  version: 0.12.20
+  origversion: 0.12.20-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+  categories:
+    - golang
 - repo: fedora_45
   subrepo: release
   srcname: gojq
@@ -640,18 +655,17 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: textproc/gojq
-  binname: gojq
-  visiblename: textproc/gojq
-  version: 0.12.19
-  origversion: 0.12.19_9
-  status: outdated
-  summary: Pure Go implementation of jq
+- repo: stalix_dev
+  srcname: bin/go/jq
+  binname: bin/go/jq
+  visiblename: bin/go/jq
+  version: 0.12.20
+  origversion: null
+  status: newest
   maintainers:
-    - nork@freebsd.org
+    - anton@samokhvalov.xyz
   categories:
-    - textproc
+    - bin
 - repo: gentoo
   srcname: app-misc/gojq
   visiblename: app-misc/gojq
@@ -763,6 +777,15 @@
     - MIT
   categories:
     - textproc
+- repo: scoop
+  subrepo: main
+  binname: gojq
+  visiblename: gojq
+  version: 0.12.20
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-gojq
   binname: mingw-w64-clang-x86_64-gojq
@@ -802,6 +825,39 @@
   summary: Pure Go implementation of jq
   maintainers:
     - wentworth@outlook.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: gojq
+  visiblename: gojq
+  version: 0.12.16
+  origversion: null
+  status: outdated
+  summary: Pure Go implementation of jq
+  maintainers:
+    - wentworth@outlook.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: gojq
+  visiblename: gojq
+  version: 0.12.17
+  origversion: null
+  status: outdated
+  summary: Pure Go implementation of jq
+  maintainers:
+    - wentworth@outlook.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: gojq
+  visiblename: gojq
+  version: 0.12.17
+  origversion: null
+  status: outdated
+  summary: Pure Go implementation of jq
+  maintainers:
+    - xiaoxiangmoe@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -929,77 +985,6 @@
     - foka@debian.org
   categories:
     - golang
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gojq
-  binnames:
-    - gojq
-    - golang-github-itchyny-gojq-dev
-  visiblename: gojq
-  version: 0.12.20
-  origversion: 0.12.20-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-  categories:
-    - golang
-- repo: scoop
-  subrepo: main
-  binname: gojq
-  visiblename: gojq
-  version: 0.12.20
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: stalix
-  srcname: bin/go/jq
-  binname: bin/go/jq
-  visiblename: bin/go/jq
-  version: 0.12.20
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/go/jq
-  binname: bin/go/jq
-  visiblename: bin/go/jq
-  version: 0.12.20
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: termux
-  srcname: gojq
-  binname: gojq
-  visiblename: gojq
-  version: 0.12.20
-  origversion: null
-  status: newest
-  summary: Pure Go implementation of jq
-  maintainers:
-    - termux@github
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: gojq
-  binnames:
-    - gojq
-    - golang-github-itchyny-gojq-dev
-  visiblename: gojq
-  version: 0.12.6
-  origversion: 0.12.6-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - foka@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: gojq
@@ -1015,18 +1000,18 @@
     - foka@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
   srcname: gojq
   binnames:
     - gojq
     - golang-github-itchyny-gojq-dev
   visiblename: gojq
-  version: 0.12.13
-  origversion: 0.12.13-1
+  version: 0.12.6
+  origversion: 0.12.6-1ubuntu0.1
   status: outdated
   maintainers:
-    - team+pkg-go@tracker.debian.org
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - foka@debian.org
   categories:
     - universe/misc
@@ -1042,6 +1027,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - foka@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gojq
+  binnames:
+    - gojq
+    - golang-github-itchyny-gojq-dev
+  visiblename: gojq
+  version: 0.12.13
+  origversion: 0.12.13-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - foka@debian.org
   categories:
     - universe/misc
@@ -1107,21 +1107,6 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
-  srcname: gojq
-  binnames:
-    - gojq
-    - golang-github-itchyny-gojq-dev
-  visiblename: gojq
-  version: 0.12.13
-  origversion: 0.12.13-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
   srcname: gojq
   binnames:
     - gojq
