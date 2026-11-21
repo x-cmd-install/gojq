@@ -24,16 +24,6 @@ Total: **23,601** lines of code across **70** files in the top 5 languages.
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
 
-## OpenSSF Scorecard
-
-Overall score: **6.1 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
-
 ## Source
 
 - **Upstream**: <https://github.com/itchyny/gojq>
@@ -47,7 +37,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,819 · **Forks**: 170 · **Open issues**: 231 · **Contributors**: 32
+- **Stars**: 3,820 · **Forks**: 170 · **Open issues**: 231 · **Contributors**: 32
 
 ## Totals (cumulative)
 
@@ -57,12 +47,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 5 | 1 | 1 | 1 | 17 |
-| last60d | 2026-09-21 | 1 | 14 | 3 | 3 | 1 | 43 |
-| 90d | 2026-08-22 | 1 | 19 | 4 | 4 | 1 | 56 |
-| last180d | 2026-05-24 | 1 | 20 | 6 | 5 | 2 | 65 |
-| 360d | 2025-11-25 | 3 | 21 | 8 | 7 | 2 | 97 |
-| last720d | 2024-11-30 | 4 | 22 | 8 | 18 | 4 | 132 |
+| 30d | 2026-10-22 | 1 | 4 | 1 | 1 | 1 | 0 |
+| last60d | 2026-09-22 | 1 | 13 | 3 | 3 | 1 | 0 |
+| 90d | 2026-08-23 | 1 | 19 | 4 | 4 | 1 | 0 |
+| last180d | 2026-05-25 | 1 | 20 | 6 | 5 | 2 | 0 |
+| 360d | 2025-11-26 | 3 | 21 | 8 | 7 | 2 | 0 |
+| last720d | 2024-12-01 | 4 | 22 | 8 | 18 | 4 | 132 |
 
 ## Release assets
 
@@ -77,7 +67,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **83** distros on [repology.org](https://repology.org/project/gojq). **19** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+Reported by **82** distros on [repology.org](https://repology.org/project/gojq). **19** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +91,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:37:30Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:24:04Z._
