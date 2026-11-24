@@ -14,15 +14,25 @@ x install gojq
 
 ## 代码洞察
 
-合计: **23,610** 行代码（覆盖前 5 种语言、共 **70** 个文件）。
+合计: **23,710** 行代码（覆盖前 5 种语言、共 **70** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 13,563 | 288 | 895 | 53 |
-| Yaml | 9,316 | 3 | 338 | 5 |
+| Go | 13,640 | 288 | 899 | 53 |
+| Yaml | 9,339 | 3 | 338 | 5 |
 | Happy | 615 | 0 | 44 | 1 |
 | Makefile | 79 | 0 | 23 | 1 |
 | Json | 26 | 0 | 0 | 10 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **6.2 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (4/10) — Found 12/30 approved changesets -- score normalized to 4
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
 
@@ -32,7 +42,7 @@ x install gojq
 ## 发布
 
 - **最新版本**: `v0.12.20` (2026-11-01)
-- **最近提交**: 2026-11-22
+- **最近提交**: 2026-11-23
 - **Release 含资产**: 6 个
 
 ## 流行度
@@ -41,18 +51,18 @@ x install gojq
 
 ## 累计统计
 
-- **发布数**: 39 · **已合并 PR**: 46 · **开放 PR**: 12 · **已关闭 issue**: 222 · **开放 issue**: 10 · **提交数**: 1819
+- **发布数**: 39 · **已合并 PR**: 46 · **开放 PR**: 11 · **已关闭 issue**: 223 · **开放 issue**: 9 · **提交数**: 1820
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 5 | 3 | 1 | 2 | 12 |
-| last60d | 2026-09-24 | 1 | 13 | 5 | 2 | 2 | 39 |
-| 90d | 2026-08-25 | 1 | 20 | 6 | 4 | 2 | 58 |
-| last180d | 2026-05-27 | 1 | 21 | 8 | 5 | 3 | 67 |
-| 360d | 2025-11-28 | 3 | 22 | 10 | 7 | 3 | 93 |
-| last720d | 2024-12-03 | 3 | 23 | 10 | 18 | 5 | 132 |
+| 30d | 2026-10-25 | 1 | 5 | 2 | 1 | 1 | 13 |
+| last60d | 2026-09-25 | 1 | 13 | 4 | 3 | 1 | 40 |
+| 90d | 2026-08-26 | 1 | 20 | 5 | 5 | 1 | 59 |
+| last180d | 2026-05-28 | 1 | 21 | 7 | 6 | 2 | 68 |
+| 360d | 2025-11-29 | 3 | 22 | 9 | 8 | 2 | 94 |
+| last720d | 2024-12-04 | 3 | 23 | 9 | 19 | 4 | 133 |
 
 ## Release 资产
 
@@ -91,4 +101,4 @@ gojq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T11:04:44Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:14:10Z._
