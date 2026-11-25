@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 5 | 2 | 1 | 1 | 13 |
-| last60d | 2026-09-25 | 1 | 13 | 4 | 3 | 1 | 40 |
-| 90d | 2026-08-26 | 1 | 20 | 5 | 5 | 1 | 59 |
-| last180d | 2026-05-28 | 1 | 21 | 7 | 6 | 2 | 68 |
-| 360d | 2025-11-29 | 3 | 22 | 9 | 8 | 2 | 94 |
-| last720d | 2024-12-04 | 3 | 23 | 9 | 19 | 4 | 133 |
+| 30d | 2026-10-26 | 1 | 5 | 2 | 1 | 1 | 13 |
+| last60d | 2026-09-26 | 1 | 12 | 4 | 3 | 1 | 40 |
+| 90d | 2026-08-27 | 1 | 20 | 5 | 5 | 1 | 59 |
+| last180d | 2026-05-29 | 1 | 21 | 7 | 6 | 2 | 68 |
+| 360d | 2025-11-30 | 3 | 22 | 9 | 8 | 2 | 94 |
+| last720d | 2024-12-05 | 3 | 23 | 9 | 19 | 4 | 133 |
 
 ## Release assets
 
@@ -75,23 +75,6 @@ Lowest-scoring checks:
 | [gojq_v0.12.20_windows_amd64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_amd64.zip) | 2.6 MiB | `native/win/x64` |
 | [gojq_v0.12.20_windows_arm64.zip](https://github.com/itchyny/gojq/releases/download/v0.12.20/gojq_v0.12.20_windows_arm64.zip) | 2.3 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **82** distros on [repology.org](https://repology.org/project/gojq). **21** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.12.13` | 🪦 legacy |
-| Debian 14 | `0.12.13` | 🪦 legacy |
-| Debian 13 | `0.12.13` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.12.13` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.12.13` | ⚠️ outdated |
-| Homebrew | `0.12.20` | ✅ latest |
-| Fedora rawhide | `0.12.20` | ✅ latest |
-| Nix unstable | `0.12.20` | ✅ latest |
-| Alpine edge | `0.12.20` | ✅ latest |
-| openSUSE Tumbleweed | `0.12.20` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gojq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:14:09Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:45:32Z._
