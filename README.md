@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.12.20` (2026-11-01)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-26
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 3,821 · **Forks**: 173 · **Open issues**: 232 · **Contributors**: 33
+- **Stars**: 3,821 · **Forks**: 173 · **Open issues**: 232 · **Contributors**: 34
 
 ## Totals (cumulative)
 
-- **Releases**: 39 · **Merged PRs**: 46 · **Open PRs**: 11 · **Closed issues**: 223 · **Open issues**: 9 · **Commits**: 1820
+- **Releases**: 39 · **Merged PRs**: 47 · **Open PRs**: 10 · **Closed issues**: 223 · **Open issues**: 9 · **Commits**: 1821
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 5 | 2 | 1 | 1 | 13 |
-| last60d | 2026-09-26 | 1 | 12 | 4 | 3 | 1 | 40 |
-| 90d | 2026-08-27 | 1 | 20 | 5 | 5 | 1 | 59 |
-| last180d | 2026-05-29 | 1 | 21 | 7 | 6 | 2 | 68 |
-| 360d | 2025-11-30 | 3 | 22 | 9 | 8 | 2 | 94 |
-| last720d | 2024-12-05 | 3 | 23 | 9 | 19 | 4 | 133 |
+| 30d | 2026-10-27 | 1 | 6 | 1 | 1 | 1 | 14 |
+| last60d | 2026-09-27 | 1 | 13 | 3 | 3 | 1 | 41 |
+| 90d | 2026-08-28 | 1 | 21 | 4 | 5 | 1 | 60 |
+| last180d | 2026-05-30 | 1 | 22 | 6 | 6 | 2 | 69 |
+| 360d | 2025-12-01 | 3 | 23 | 8 | 8 | 2 | 95 |
+| last720d | 2024-12-06 | 3 | 24 | 8 | 19 | 4 | 134 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for gojq lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:45:32Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:57:02Z._
